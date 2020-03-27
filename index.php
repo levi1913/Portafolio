@@ -39,23 +39,76 @@
 </div>
 
 <div class="proyectos" id="proyectos">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-               <h2>Sistema de revalidación de estudios</h2>
-               <center><img src="img/imagen 1.png" class="imagen1"><br><br>
-               <h3>¿Qué te interesa saber de este proyecto?</h3><br>
-              <select id="revalidacion" onchange="opciones1();">
-                  <option value="vacio">Seleccione una opción...</option>
-                  <option value="todo">Todo :)</option>
-                  <option value="conte">Contexto</option>
-                  <option value="herra">Herramientas usadas</option>
-                  <option value="link">Link</option>
-              </select></center><br>
-              <div id="infocaja" class="infocaja"></div>
+
+<br><h2>Proyectos realizados</h2><br>
+
+<div class="carrusel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img class="d-block w-100" src="img/imagen1.png"  alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="http://revalidacion.uaeh.edu.mx/SistemaRevalidacionUAEHOficial/login.php"><h5>Sistema de revalidación</h5>
+                    <p>Sistema realizado para la Universidad Autónoma del Estado de Hidalgo</p></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="img/imagen2.png" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block corona">
+                    <a href="https://levi1913.github.io/Covid-19/"><h5>CoronaNews</h5>
+                    <p>Aplicación que muestra todas las estadísticas del COVID-19</p></a>
+                </div>
             </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
+</div><br>
+
+    <center>
+        <h3>¿Sobre que proyecto te interesa conocer?</h3>
+              
+            <select id="proyecto" onchange="selecionar();">
+                <option value="vacio">Seleccione una opción...</option>
+                <option value="revalidacion">Sistema de revalidación</option>
+                <option value="Covid">CoronaNEWS</option>
+            </select>
+            
+            <div class="div_revalidacion" style="display: none">
+                <select id="revalidacion" onchange="opciones1();">
+                    <option value="vacio">Seleccione una opción...</option>
+                    <option value="todo">Todo :)</option>
+                    <option value="conte">Contexto</option>
+                    <option value="herra">Herramientas usadas</option>
+                    <option value="link">Link</option>
+                </select>
+            </div>
+
+            <div class="div_covid" style="display: none">
+                <select id="covid" onchange="opciones2();">
+                    <option value="vacio">Seleccione una opción...</option>
+                    <option value="todo">Todo :)</option>
+                    <option value="conte">Contexto</option>
+                    <option value="herra">Herramientas usadas</option>
+                    <option value="link">Link</option>
+                </select>
+            </div>
+             
+            <br>
+              <div id="infocaja" class="infocaja"></div>
+    </center>
+
+    
 </div>
 
 <div class="atributos" id="aptitudes">

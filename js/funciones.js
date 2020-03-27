@@ -1,5 +1,34 @@
+function selecionar(){
+    let op = document.getElementById("proyecto").value;
+    let re = document.querySelector(".div_revalidacion");
+    let co = document.querySelector(".div_covid");
+
+    if(op == "revalidacion"){
+        re.style.display = 'block';
+        document.getElementById("infocaja").innerHTML="<p></p>";
+        
+    }else{
+        re.style.display = 'none';
+        document.getElementById("infocaja").innerHTML="<p></p>";
+    } 
+
+    if(op == "Covid"){
+        co.style.display = 'block';
+        document.getElementById("infocaja").innerHTML="<p></p>";
+        
+    }else{
+        co.style.display = 'none';
+        document.getElementById("infocaja").innerHTML="<p></p>";
+    } 
+
+  
+}
+
+
+
 function opciones1(){
     var revalidacion = document.getElementById("revalidacion").value;
+    let op = document.getElementById("proyecto").value;
 
     if(revalidacion == "todo"){
         document.getElementById("infocaja").innerHTML="<p>De los primeros proyectos de mi carrera laboral, fue realizar un sistema para"+
@@ -20,9 +49,39 @@ function opciones1(){
                                                       "<ul><li>HTML5</li><li>CSS5</li><li>Javascript</li><li>PHP</li></ul>";                                                 
     }else if(revalidacion == "link"){
         document.getElementById("infocaja").innerHTML="<center><a href='http://revalidacion.uaeh.edu.mx/SistemaRevalidacionUAEHOficial/login.php'>Link</a></center>";
-    }else if(revalidacion == "vacio"){
+    }else if(revalidacion == "vacio" ||  op !== "revalidacion"){
         document.getElementById("infocaja").innerHTML="<p></p>";
     }
+    
+}
+
+
+function opciones2(){
+    var revalidacion = document.getElementById("covid").value;
+    
+
+  
+        if(revalidacion == "todo"){
+            document.getElementById("infocaja").innerHTML="<p>Durante la pandemia del año 2020, lamentablemente hubo una gran cantidad de infectados y muertos"+
+            " Para mantener a la población informada, fue iniciativa mia crear una aplicación para contabilizar todos los numeros de la pandemia"+
+            "<p class='he' align='center'>Las herramientas empleadas en este sistema fueron varias entre las cuales destacan:</p>"+
+            "<ul><li>HTML5</li><li>CSS5</li><li>SCSS</li><li>Javascript</li><li>API Rest</li></ul>";
+            "<center><a href='https://levi1913.github.io/Covid-19/'>Link</a></center>";
+            
+    
+        }else if(revalidacion == "conte"){
+            document.getElementById("infocaja").innerHTML="<p>Durante la pandemia del año 2020, lamentablemente hubo una gran cantidad de infectados y muertos"+
+            " Para mantener a la población informada, fue iniciativa mia crear una aplicación para contabilizar todos los numeros de la pandemia";
+        
+        }else if(revalidacion == "herra"){
+            document.getElementById("infocaja").innerHTML="<p class='he' align='center'>Las herramientas empleadas en este sistema fueron varias entre las cuales destacan:</p>"+
+                                                          "<ul><li>HTML5</li><li>CSS5</li><li>SCSS</li><li>Javascript</li><li>API Rest</li></ul>";                                                 
+        }else if(revalidacion == "link"){
+            document.getElementById("infocaja").innerHTML="<center><a href='https://levi1913.github.io/Covid-19/'>Link</a></center>";
+        }else if(revalidacion == "vacio"){
+            document.getElementById("infocaja").innerHTML="<p></p>";
+        }
+    
     
 }
 

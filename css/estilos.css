@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* line 20, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 section {
   position: absolute;
   width: 100%;
@@ -9,48 +10,57 @@ section {
   align-items: center;
 }
 
+/* line 29, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 section h2 {
   position: relative;
   font-size: 6em;
   color: #fff;
 }
 
+/* line 34, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 section svg {
   position: absolute;
   top: 0;
   left: 0;
 }
 
+/* line 40, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 body {
   margin: 0;
   padding: 0;
 }
 
+/* line 44, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 body::-webkit-scrollbar {
   width: 12px;
   /* Tamaño del scroll en vertical */
   /*height: 8px;    Tamaño del scroll en horizontal */
 }
 
+/* line 50, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 body::-webkit-scrollbar:horizontal {
   display: none;
 }
 
+/* line 54, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 body::-webkit-scrollbar-thumb {
   background: gray;
   border-radius: 4px;
 }
 
+/* line 59, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .presentacion {
   background: #136daf;
   height: 100vh;
   width: all;
 }
 
+/* line 64, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .color1 {
   background-color: #136daf;
 }
 
+/* line 69, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .letra-menu a {
   color: rgba(255, 255, 255, 0.459) !important;
   font-size: 25px;
@@ -58,10 +68,12 @@ body::-webkit-scrollbar-thumb {
   font-family: helvetica, arial;
 }
 
+/* line 75, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .letra-menu a:hover {
   text-decoration: line-through;
 }
 
+/* line 80, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .hello {
   text-align: center;
   color: rgba(0, 0, 0, 0.548);
@@ -72,12 +84,14 @@ body::-webkit-scrollbar-thumb {
   transform: translatey(-100%);
 }
 
+/* line 91, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .hello span {
   color: rgba(255, 255, 255, 0.459);
   font-size: 160px;
   text-shadow: 15px 11px 9px black;
 }
 
+/* line 97, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .banner {
   animation-name: desplazamiento;
   animation-duration: 2s;
@@ -93,6 +107,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (min-width: 800px) {
+  /* line 111, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .navbar-center {
     position: absolute;
     left: 50%;
@@ -102,169 +117,208 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 800px) {
+  /* line 120, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello {
     margin-top: 30vh;
   }
+  /* line 122, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello span {
     font-size: 100px;
     text-shadow: 10px 10px 10px black;
   }
+  /* line 126, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello .blanco {
     font-size: 100px;
   }
+  /* line 129, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello .nombre {
     font-size: 10px;
   }
+  /* line 134, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .home p {
     font-size: 20px !important;
     word-spacing: 8px;
     text-align: justify;
     font-family: helvetica, arial;
   }
+  /* line 138, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .color1 {
     background: rgba(0, 0, 0, 0.548);
   }
 }
 
 @media (max-width: 500px) and (min-width: 491px) {
+  /* line 143, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello {
     margin-top: 30vh;
   }
+  /* line 145, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello span {
     font-size: 100px;
     text-shadow: 10px 10px 10px black;
   }
+  /* line 149, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello .blanco {
     font-size: 100px;
   }
+  /* line 153, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello .nombre span {
     font-size: 20px !important;
     margin-left: -10px;
   }
+  /* line 160, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .home p {
     font-size: 20px !important;
     word-spacing: 8px;
     text-align: justify;
     font-family: helvetica, arial;
   }
+  /* line 164, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .color1 {
     background: rgba(0, 0, 0, 0.548);
   }
 }
 
 @media (max-width: 490px) and (min-width: 481px) {
+  /* line 169, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello {
     margin-top: 30vh;
   }
+  /* line 171, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello span {
     font-size: 100px;
     text-shadow: 10px 10px 10px black;
   }
+  /* line 175, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello .blanco {
     font-size: 100px;
   }
+  /* line 180, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello .nombre span {
     font-size: 20px !important;
     margin-left: -10px;
   }
+  /* line 187, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .home p {
     font-size: 20px !important;
     word-spacing: 8px;
     text-align: justify;
     font-family: helvetica, arial;
   }
+  /* line 191, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .color1 {
     background: rgba(0, 0, 0, 0.548);
   }
 }
 
 @media (max-width: 480px) and (min-width: 451px) {
+  /* line 197, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello {
     margin-top: 30vh;
   }
+  /* line 199, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello span {
     font-size: 100px;
     text-shadow: 10px 10px 10px black;
   }
+  /* line 203, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello .blanco {
     font-size: 100px;
   }
+  /* line 207, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello .nombre span {
     font-size: 20px !important;
     margin-left: 15px;
   }
+  /* line 214, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .home p {
     font-size: 20px !important;
     word-spacing: 8px;
     text-align: justify;
     font-family: helvetica, arial;
   }
+  /* line 218, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .color1 {
     background: rgba(0, 0, 0, 0.548);
   }
 }
 
 @media (max-width: 450px) and (min-width: 441px) {
+  /* line 223, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello {
     margin-top: 30vh;
   }
+  /* line 225, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello span {
     font-size: 100px;
     text-shadow: 10px 10px 10px black;
   }
+  /* line 229, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello .blanco {
     font-size: 100px;
   }
+  /* line 233, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello .nombre span {
     font-size: 15px !important;
     margin-left: 5px;
   }
+  /* line 241, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .home p {
     font-size: 20px !important;
     word-spacing: 8px;
     text-align: justify;
     font-family: helvetica, arial;
   }
+  /* line 245, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .color1 {
     background: rgba(0, 0, 0, 0.548);
   }
 }
 
 @media (max-width: 440px) and (min-width: 431px) {
+  /* line 250, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello {
     margin-top: 30vh;
   }
+  /* line 252, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello span {
     font-size: 100px;
     text-shadow: 10px 10px 10px black;
   }
+  /* line 256, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello .blanco {
     font-size: 100px;
   }
+  /* line 261, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .hello .nombre span {
     font-size: 1px !important;
   }
+  /* line 268, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .home p {
     font-size: 20px !important;
     word-spacing: 8px;
     text-align: justify;
     font-family: helvetica, arial;
   }
+  /* line 272, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .color1 {
     background: rgba(0, 0, 0, 0.548);
   }
 }
 
+/* line 277, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .blanco {
   color: white !important;
 }
 
+/* line 280, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .nombre {
   text-align: center;
   animation: nombre;
   animation-duration: 2s;
 }
 
+/* line 285, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .nombre span {
   color: rgba(255, 255, 255, 0.459);
   font-size: 20px;
@@ -279,6 +333,7 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+/* line 298, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .home {
   width: all;
   height: 100vh;
@@ -287,6 +342,7 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 40px;
 }
 
+/* line 305, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .home p {
   font-size: 25px;
   word-spacing: 8px;
@@ -294,6 +350,7 @@ body::-webkit-scrollbar-thumb {
   font-family: helvetica, arial;
 }
 
+/* line 312, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .proyectos {
   width: all;
   height: auto;
@@ -301,6 +358,7 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 70px;
 }
 
+/* line 318, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .proyectos p {
   color: white;
   font-size: 20px !important;
@@ -309,15 +367,18 @@ body::-webkit-scrollbar-thumb {
   font-family: helvetica, arial;
 }
 
+/* line 322, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .proyectos h2 {
   text-align: center;
   margin-top: 30px;
 }
 
+/* line 326, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .proyectos h3 {
   text-shadow: 10px 10px 10px black;
 }
 
+/* line 330, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .imagen1 {
   width: 650px;
   height: 350px;
@@ -327,18 +388,23 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 800px) {
+  /* line 340, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .home {
-    height: 120vh;
+    height: auto;
+    margin-top: 100px;
   }
+  /* line 345, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .proyectos {
     height: auto;
   }
+  /* line 348, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .imagen1 {
     width: 250px;
     height: 150px;
   }
 }
 
+/* line 353, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 select {
   width: 300px;
   height: auto;
@@ -346,21 +412,25 @@ select {
   border-radius: 10px;
 }
 
+/* line 360, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 option {
   font-family: helvetica, arial;
   border-radius: 10px;
 }
 
+/* line 365, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .he {
   text-indent: 12%;
 }
 
+/* line 371, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 ul {
   text-align: center !important;
   list-style: none;
   padding-right: 45px;
 }
 
+/* line 376, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 li {
   color: white;
   font-size: 20px;
@@ -368,6 +438,7 @@ li {
   font-family: helvetica, arial;
 }
 
+/* line 383, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .infocaja a {
   color: white;
   font-size: 20px;
@@ -377,20 +448,24 @@ li {
   text-decoration: underline;
 }
 
+/* line 391, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .infocaja a:hover {
   color: #136daf;
   text-decoration: line-through;
   font-style: italic;
 }
 
+/* line 396, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .infocaja p {
   color: black !important;
 }
 
+/* line 399, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .infocaja li {
   color: black !important;
 }
 
+/* line 404, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .atributos {
   height: auto;
   padding-bottom: 20px;
@@ -400,6 +475,7 @@ li {
 }
 
 @media (min-width: 500px) {
+  /* line 413, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   p {
     font-size: 20px !important;
     word-spacing: 8px;
@@ -408,10 +484,12 @@ li {
   }
 }
 
+/* line 417, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .listas {
   text-align: justify;
 }
 
+/* line 419, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .listas li {
   color: white;
   font-size: 18px;
@@ -420,24 +498,28 @@ li {
   text-shadow: 10px 10px 15px black;
 }
 
+/* line 427, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .listas h3 {
   text-align: center;
   line-height: 40px;
   text-shadow: 10px 10px 10px black;
 }
 
+/* line 432, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .listas .icon {
   height: 25px;
   width: 25px;
   margin-right: 10px;
 }
 
+/* line 438, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .listas .icon-mas {
   height: 30px;
   width: 37px;
   margin-right: 10px;
 }
 
+/* line 444, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .texto {
   border: solid .5px black;
   padding-left: 30px;
@@ -445,6 +527,7 @@ li {
   padding-top: 30px;
 }
 
+/* line 450, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .contacto {
   height: 650px;
   width: all;
@@ -455,6 +538,7 @@ li {
   font-family: helvetica, arial;
 }
 
+/* line 456, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .contacto .email {
   height: auto;
   width: 100%;
@@ -466,12 +550,14 @@ li {
   box-shadow: 10px 10px 10px black;
 }
 
+/* line 466, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .contacto .email h2 {
   color: white;
   text-align: center;
   padding-top: 10px;
 }
 
+/* line 472, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .contacto .email input {
   margin-left: 25px;
   margin-top: 20px;
@@ -480,6 +566,7 @@ li {
   width: 90%;
 }
 
+/* line 482, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .contacto .email textarea {
   margin-left: 25px;
   max-height: 190px;
@@ -490,6 +577,7 @@ li {
   width: 90%;
 }
 
+/* line 492, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .contacto .email .boton {
   width: 50%;
   text-align: center;
@@ -497,16 +585,19 @@ li {
   border-radius: 7px;
 }
 
+/* line 500, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .img_conta {
   height: 35px;
   width: 35px;
   margin-right: 12px;
 }
 
+/* line 506, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .redes {
   margin-top: 150px;
 }
 
+/* line 509, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .redes li {
   margin-bottom: 20px;
   font-style: italic;
@@ -514,11 +605,13 @@ li {
   font-size: 23px;
 }
 
+/* line 515, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .redes a {
   color: white;
   text-shadow: 10px 10px 10px black;
 }
 
+/* line 519, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .redes a:hover {
   text-decoration: line-through;
   animation-name: enlaces;
@@ -536,6 +629,7 @@ li {
 }
 
 @media (max-width: 500px) {
+  /* line 535, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .contacto {
     height: auto;
     padding-bottom: 15px;
@@ -543,15 +637,19 @@ li {
 }
 
 @media (max-width: 400px) {
+  /* line 543, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .contacto .email input, .contacto .email textarea {
     margin-left: 17px;
   }
+  /* line 548, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .redes {
     margin-top: 20px;
   }
+  /* line 551, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   a {
     font-size: 16px;
   }
+  /* line 554, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
   .img_conta {
     height: 20px;
     width: 20px;
@@ -559,6 +657,7 @@ li {
   }
 }
 
+/* line 561, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .footer {
   width: all;
   height: 55px;
@@ -567,6 +666,41 @@ li {
   padding-top: 10px;
 }
 
+/* line 568, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
 .footer h3 {
   font-size: 12px;
 }
+
+/* line 572, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
+.carrusel {
+  height: auto;
+  width: 70%;
+  margin: auto;
+  border-color: #DF6F0D;
+}
+
+/* line 578, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
+.carrusel h5 {
+  color: black;
+  font-size: 30px;
+}
+
+/* line 582, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
+.carrusel p {
+  color: black;
+  text-align: center;
+}
+
+/* line 588, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
+.carrusel .corona h5 {
+  color: red;
+  font-size: 30px;
+}
+
+/* line 592, ../../../../wamp64/www/Portafolio/sass/estilos.scss */
+.carrusel .corona p {
+  color: red;
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */
