@@ -1,0 +1,19 @@
+ <p>De los primeros proyectos de mi carrera laboral, fue realizar un sistema para 
+                   el control de revalidación de estudios en la UAEH. este proyecto se encuentra actualmente
+                   bajo un dominio oficial de la institución y es usado semestre a semestre para que nuevos alumnos ingresen a 
+                   la institución.
+               </p>
+               <p>Para la elaboración de este proyecto </p>
+               <ul>
+                   <li></li>
+               </ul>
+
+
+
+               if(revalidacion == "herra"){
+        document.getElementById("infocaja").innerHTML="<p>Las herramientas empleadas en este sistema fueron varias entre las cuales destacan</p>"+
+                                                      "<ul><li>HTML5</li><li>CSS5</li><li>Javascript</li><li>PHP7</li></ul>";
+                                                      
+    }
+
+    Iconos diseñados por <a href="https://www.flaticon.es/autores/inipagistudio" title="inipagistudio">inipagistudio</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
